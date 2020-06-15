@@ -8,7 +8,7 @@
       - uses: actions/checkout@v1
       - uses: olafurpg/setup-scala@v5
       - name: Compile
-        run:  /home/runner/bin/sbt -sbt-create
+        run:  sudo sbt Compile
       - name: install surge
         run: sudo npm install --global surge
       - name: Deploythesurge
