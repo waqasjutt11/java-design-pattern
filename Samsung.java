@@ -3,13 +3,13 @@ public class Samsung implements MobileShop {
 
 	@Override
 	public void modelNo() {
-		System.out.println(" Samsung galaxy tab 3 ");
+		System.out.println(" Samsung galaxy j6 ");
 		
 	}
 
 	@Override
 	public void price() {
-		 System.out.println(" Rs 45000.00 ");
+		 System.out.println(" Rs 25000.00 ");
 		
 	}
 

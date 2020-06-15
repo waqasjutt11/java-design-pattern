@@ -3,7 +3,7 @@ public class Iphone implements MobileShop {
 
 	@Override
 	public void modelNo() {
-		System.out.println(" Iphone 6 ");
+		System.out.println(" Iphone 7");
 		
 	}
 
