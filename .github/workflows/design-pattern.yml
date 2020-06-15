@@ -1,4 +1,4 @@
-ame: Main workflow
+name: Main workflow
 on: [push, pull_request]
 jobs:
   build:
