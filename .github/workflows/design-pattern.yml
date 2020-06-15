@@ -21,8 +21,8 @@ jobs:
       - name: Maven Package
         run: mvn -B clean package -DskipTests
       - name: Maven Verify
-        run: mvn -B clean verify}"
+        run: mvn -B clean verify
       - name: install surge
         run: npm install -g surge
-      - name: depoloy surge
-        run: sudo surge ./build designs-pattern-by-waqas.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      - name: Deploythesurge
+        run: sudo surge ./build design-pattern-by-waqas.surge.sh --token ${{ secrets.SURGE_TOKEN }}
