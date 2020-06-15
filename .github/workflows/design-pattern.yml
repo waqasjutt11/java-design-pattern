@@ -25,4 +25,4 @@ jobs:
       - name: install surge
         run: npm install -g surge
       - name: depoloy surge
-        run: sudo surge ./build design-pattern-by-waqas.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: sudo surge ./build designs-pattern-by-waqas.surge.sh --token ${{ secrets.SURGE_TOKEN }}
